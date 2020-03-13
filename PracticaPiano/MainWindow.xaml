@@ -7,18 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="707">
     <Grid>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Click="Button_Click"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="100,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="200,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="300,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="400,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="500,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="600,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="64,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="166,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Height="281" BorderBrush="Black" Background="Black" Margin="366,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="466,0,0,0"/>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="568,0,0,0"/>
+        <Button x:Name="btnDo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Click="Button_Click"/>
+        <Button x:Name="btnRe" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="100,0,0,0" Click="BtnRe_Click"/>
+        <Button x:Name="btnMi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="200,0,0,0" Click="BtnMi_Click"/>
+        <Button x:Name="btnFa" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="300,0,0,0" Click="BtnFa_Click"/>
+        <Button x:Name="btnSol" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="400,0,0,0" Click="BtnSol_Click"/>
+        <Button x:Name="btnLa" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="500,0,0,0" Click="BtnLa_Click"/>
+        <Button x:Name="btnSi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" BorderBrush="Black" Background="White" Margin="600,0,0,0" Click="BtnSi_Click"/>
+        <Button x:Name="btnDoSos" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="64,0,0,0" Click="BtnDoSos_Click"/>
+        <Button x:Name="btnReSos" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="166,0,0,0" Click="BtnReSos_Click"/>
+        <Button x:Name="btnFaSos" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Height="281" BorderBrush="Black" Background="Black" Margin="366,0,0,0" Click="BtnFaSos_Click"/>
+        <Button x:Name="btnSolSos" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="466,0,0,0" Click="BtnSolSos_Click"/>
+        <Button x:Name="btnLaSos" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="281" BorderBrush="Black" Background="Black" Margin="568,0,0,0" Click="BtnLaSos_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="38,361,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock HorizontalAlignment="Left" Margin="143,361,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock HorizontalAlignment="Left" Margin="244,361,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" FontSize="36"/>
